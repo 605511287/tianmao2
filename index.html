@@ -10,6 +10,7 @@
     <script src='js/index.js'></script>
     <link rel="shortcut icon" href="img/icon.png" >
     <link rel="stylesheet" href="css/iconfont.css">
+    <link rel="stylesheet" href="css/demo.css">
 </head>
 <body>
     <div class="show">
@@ -90,7 +91,7 @@
         </div>
     </div>
     <header>
-        <div class="topnav">
+        <div class="topnav contains" style="margin-top: 0">
             <div class="left-head">
                 <span>喵,欢迎来天猫</span>
                 <a href="" class='menu-hd'>请登陆</a>
@@ -116,7 +117,7 @@
                         </div>
                     </li>
                     <li><a href="" class='menu-hd'><span class='iconfont icon-shouji'></span> 手机版</a></li>
-                    <li><a href="" class='menu-hd'>淘宝网</a></li>
+                    <li class="col-s-hide"><a href="" class='menu-hd'>淘宝网</a></li>
                     <li class='hd'><a href="" class='menu-hd'>商家支持<span class="iconfont icon-jiantouarrow486"></span></a>
                         <div class="son">
                                 <div class="sontop">
@@ -221,7 +222,7 @@
     </div>
     <main>
         <div class="mainnav">
-            <div class="innercon0">
+            <div class="innercon0 contains1">
                 <div class="innercon1">
                     <a href=""><img src="img/mainnav1.png" alt=""></a>
                     <a href=""><img src="img/mainnav2.png" alt=""></a>
@@ -232,12 +233,12 @@
                     <a href="">营业厅</a>
                     <a href="">魅力惠</a>
                     <a href="">飞猪旅行</a>
-                    <a href="">苏宁易购</a>
+                    <a href="" class="hide">苏宁易购</a>
                 </div>
             </div>
         </div>
         <div class="bigbanner">
-            <div class="bannerbox">
+            <div class="bannerbox contains2">
                 <div class="aside">
                     <div class="toplogo">
                         <div class="logo">
@@ -2550,9 +2551,18 @@
                 <div class="btn"></div>
                 <div class="btn"></div>
             </div>
-        </div>    
+        </div>
+        <div class="contains">
+            <div class="row">
+                <div class="col-l-4 col-s-5"><img src="img/c1" alt="" width="100%" height="100%"></div>
+                <div class="col-l-4 col-s-5"><img src="img/c2.webp" alt="" width="100%" height="100%"></div>
+                <div class="col-l-4 col-s-5"><img src="img/c3.webp" alt="" width="100%" height="100%"></div>
+                <div class="col-l-4 col-s-5"><img src="img/c4.webp" alt="" width="100%" height="100%"></div>
+                <div class="col-l-4 col-s-hide"><img src="img/c5.webp" alt="" width="100%" height="100%"></div>
+            </div>
+        </div>
         <div class="active">
-            <div class="item">
+            <div class="item hide">
                 <div class="title">
                     <h2>品牌闪购</h2>
                     <span>BRAND SALE</span>
@@ -2589,7 +2599,7 @@
                 </div>
             </div>
         </div>
-        <div class="brand-list">
+        <div class="brand-list contains1">
             <ul>
                 <li>
                     <div class="imgbox">
@@ -2865,7 +2875,7 @@
                     </div></li>
             </ul>
         </div>
-        <div class="floor mart">
+        <div class="floor mart contains">
             <div class="title">
                 <img src="img/floor1-1.png" alt="" width="214" height="25">
                 <div class="hotlist">
@@ -2937,7 +2947,7 @@
                             <div class="price">￥68.5</div>
                         </a>
                     </div>
-                    <div class="pice">                        <a href="">
+                    <div class="pice col-s-hide">                        <a href="">
                         <img src="img/floor1-4.jpg" alt="">
                         <div class="tit">ABC卫生巾棉柔日用超长夜用周期套装10包 送护垫22片</div>
                         <div class="price">￥68.5</div>
@@ -2957,7 +2967,7 @@
                         <div class="tit">ABC卫生巾棉柔日用超长夜用周期套装10包 送护垫22片</div>
                         <div class="price">￥68.5</div>
                     </a></div>
-                    <div class="pice">                        <a href="">
+                    <div class="pice col-s-hide">                        <a href="">
                         <img src="img/floor1-4.jpg" alt="">
                         <div class="tit">ABC卫生巾棉柔日用超长夜用周期套装10包 送护垫22片</div>
                         <div class="price">￥68.5</div>
@@ -2965,7 +2975,7 @@
                 </div>
             </div>
         </div>
-        <div class="floor hk">
+        <div class="floor hk contains">
             <div class="title">
                 <img src="img/floor2.png" alt="" width="214" height="25">
                 <div class="hotlist">
@@ -2999,7 +3009,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="right">
+                <div class="right ">
                         <div class="pice">
                                 <a href="">
                                     <img src="img/floor4.jpg" alt="">
@@ -3014,7 +3024,7 @@
                                         <div class="price">￥68.5</div>
                                     </a>
                                 </div>
-                    <div class="pice">
+                    <div class="pice col-s-hide">
                         <a href="">
                             <img src="img/floor4.jpg" alt="">
                             <div class="tit">ABC卫生巾棉柔日用超长夜用周期套装10包 送护垫22片</div>
@@ -3041,7 +3051,7 @@
                         <div class="tit">ABC卫生巾棉柔日用超长夜用周期套装10包 送护垫22片</div>
                         <div class="price">￥68.5</div>
                     </a></div>
-                    <div class="pice">                        <a href="">
+                    <div class="pice col-s-hide">                        <a href="">
                         <img src="img/floor4.jpg" alt="">
                         <div class="tit">ABC卫生巾棉柔日用超长夜用周期套装10包 送护垫22片</div>
                         <div class="price">￥68.5</div>
@@ -3049,7 +3059,7 @@
                 </div>
             </div>
         </div>
-        <div class="floor fashion">
+        <div class="floor fashion contains">
             <div class="title">
                 <div class="floortitle">
                     <i></i>
@@ -3102,7 +3112,7 @@
                                 <div class="price">￥68.5</div>
                             </a>
                         </div>
-                    <div class="pice">
+                    <div class="pice col-s-hide">
                         <a href="">
                             <img src="img/floor4.jpg" alt="">
                             <div class="tit">ABC卫生巾棉柔日用超长夜用周期套装10包 送护垫22片</div>
@@ -3129,7 +3139,7 @@
                         <div class="tit">ABC卫生巾棉柔日用超长夜用周期套装10包 送护垫22片</div>
                         <div class="price">￥68.5</div>
                     </a></div>
-                    <div class="pice">                        <a href="">
+                    <div class="pice col-s-hide">                        <a href="">
                         <img src="img/floor4.jpg" alt="">
                         <div class="tit">ABC卫生巾棉柔日用超长夜用周期套装10包 送护垫22片</div>
                         <div class="price">￥68.5</div>
@@ -3137,7 +3147,7 @@
                 </div>
             </div>
         </div>
-        <div class="floor play">
+        <div class="floor play contains">
                 <div class="title">
                         <div class="floortitle">
                             <i></i>
@@ -3190,7 +3200,7 @@
                                     <div class="price">￥68.5</div>
                                 </a>
                             </div>
-                        <div class="pice">
+                        <div class="pice col-s-hide">
                             <a href="">
                                 <img src="img/floor5.jpg" alt="">
                                 <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
@@ -3217,7 +3227,7 @@
                             <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
                             <div class="price">￥68.5</div>
                         </a></div>
-                        <div class="pice">                        <a href="">
+                        <div class="pice col-s-hide">                        <a href="">
                             <img src="img/floor5.jpg" alt="">
                             <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
                             <div class="price">￥68.5</div>
@@ -3225,7 +3235,7 @@
                     </div>
                 </div>
         </div>
-        <div class="floor life">
+        <div class="floor life contains">
                 <div class="title">
                         <div class="floortitle">
                             <i></i>
@@ -3264,14 +3274,14 @@
                         </a>
                     </div>
                     <div class="right">
-                            <div class="pice">
+                            <div class="pice col-s-hide">
                                 <a href="">
                                     <img src="img/floor7.jpg" alt="">
                                     <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
                                     <div class="price">￥68.5</div>
                                 </a>
                             </div>
-                            <div class="pice">
+                            <div class="pice col-s-hide">
                                 <a href="">
                                     <img src="img/floor7.jpg" alt="">
                                     <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
@@ -3313,7 +3323,7 @@
                     </div>
                 </div>
         </div>    
-        <div class="floor home">
+        <div class="floor home contains">
                 <div class="title">
                         <div class="floortitle">
                             <i></i>
@@ -3352,14 +3362,14 @@
                         </a>
                     </div>
                     <div class="right">
-                            <div class="pice">
+                            <div class="pice col-s-hide">
                                 <a href="">
                                     <img src="img/floor10.png" alt="">
                                     <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
                                     <div class="price">￥68.5</div>
                                 </a>
                             </div>
-                            <div class="pice">
+                            <div class="pice col-s-hide">
                                 <a href="">
                                     <img src="img/floor10.png" alt="">
                                     <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
@@ -3401,7 +3411,7 @@
                     </div>
                 </div>
         </div>
-        <div class="floor outdoors">
+        <div class="floor outdoors contains">
                 <div class="title">
                         <div class="floortitle">
                             <i></i>
@@ -3447,14 +3457,14 @@
                                     <div class="price">￥68.5</div>
                                 </a>
                             </div>
-                            <div class="pice">
+                            <div class="pice col-s-hide">
                                 <a href="">
                                     <img src="img/floor12.jpg" alt="">
                                     <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
                                     <div class="price">￥68.5</div>
                                 </a>
                             </div>
-                        <div class="pice">
+                        <div class="pice col-s-hide">
                             <a href="">
                                 <img src="img/floor12.jpg" alt="">
                                 <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
@@ -3489,107 +3499,146 @@
                     </div>
                 </div>
         </div>
-        <div class="floor like">
+        <div class="floor like contains">
             <h2 class="title">
                 <span>
                         猜你喜欢
-                </span>    
+                </span>
             </h2>
-            <ul class="wonder">
-                <li>
-                    <a href="">
-                        <img src="img/floor7.jpg" alt="">
-                        <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
-                        <div class="price">￥68.5</div>
-                    </a>
-                </li>
-                <li> <a href="">
-                        <img src="img/floor7.jpg" alt="">
-                        <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
-                        <div class="price">￥68.5</div>
-                    </a></li>
-                <li> <a href="">
-                        <img src="img/floor7.jpg" alt="">
-                        <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
-                        <div class="price">￥68.5</div>
-                    </a></li>
-                <li> <a href="">
-                        <img src="img/floor7.jpg" alt="">
-                        <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
-                        <div class="price">￥68.5</div>
-                    </a></li>
-                <li> <a href="">
-                        <img src="img/floor7.jpg" alt="">
-                        <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
-                        <div class="price">￥68.5</div>
-                    </a></li>
-            </ul>
-            <ul class="wonder">
-                    <li>
+            <div class="wonders">
+                <ul class=" wonder ">
+                    <li class="col1-l-4 col1-s-4">
                         <a href="">
                             <img src="img/floor7.jpg" alt="">
                             <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
                             <div class="price">￥68.5</div>
                         </a>
                     </li>
-                    <li> <a href="">
+                    <li class="col1-l-4 col1-s-4"> <a href="">
                             <img src="img/floor7.jpg" alt="">
                             <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
                             <div class="price">￥68.5</div>
                         </a></li>
-                    <li> <a href="">
+                    <li class="col1-l-4 col1-s-4"> <a href="">
                             <img src="img/floor7.jpg" alt="">
                             <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
                             <div class="price">￥68.5</div>
                         </a></li>
-                    <li> <a href="">
+                    <li class="col1-l-4 col1-s-4"> <a href="">
                             <img src="img/floor7.jpg" alt="">
                             <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
                             <div class="price">￥68.5</div>
                         </a></li>
-                    <li> <a href="">
+                    <li class="col1-l-4 col1-s-4"> <a href="">
                             <img src="img/floor7.jpg" alt="">
                             <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
                             <div class="price">￥68.5</div>
                         </a></li>
-            </ul>
-            <ul class="wonder">
-                <li>
-                    <a href="">
-                        <img src="img/floor7.jpg" alt="">
-                        <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
-                        <div class="price">￥68.5</div>
-                    </a>
-                </li>
-                <li> 
-                    <a href="">
-                        <img src="img/floor7.jpg" alt="">
-                        <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
-                        <div class="price">￥68.5</div>
-                    </a>
-                </li>
-                <li>
+                </ul>
+                <ul class="wonder ">
+                        <li class="col1-l-4 col1-s-4">
+                            <a href="">
+                                <img src="img/floor7.jpg" alt="">
+                                <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
+                                <div class="price">￥68.5</div>
+                            </a>
+                        </li>
+                        <li class="col1-l-4 col1-s-4"> <a href="">
+                                <img src="img/floor7.jpg" alt="">
+                                <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
+                                <div class="price">￥68.5</div>
+                            </a></li>
+                        <li class="col1-l-4 col1-s-4"> <a href="">
+                                <img src="img/floor7.jpg" alt="">
+                                <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
+                                <div class="price">￥68.5</div>
+                            </a></li>
+                        <li class="col1-l-4 col1-s-4"> <a href="">
+                                <img src="img/floor7.jpg" alt="">
+                                <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
+                                <div class="price">￥68.5</div>
+                            </a></li>
+                        <li class="col1-l-4 col1-s-4"> <a href="">
+                                <img src="img/floor7.jpg" alt="">
+                                <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
+                                <div class="price">￥68.5</div>
+                            </a></li>
+                </ul>
+                <ul class="wonder ">
+                    <li class="col1-l-4 col1-s-4">
                         <a href="">
-                        <img src="img/floor7.jpg" alt="">
-                        <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
-                        <div class="price">￥68.5</div>
-                    </a>
-                </li>
-                <li> 
-                    <a href="">
-                        <img src="img/floor7.jpg" alt="">
-                        <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
-                        <div class="price">￥68.5</div>
-                    </a>
-                </li>
-                <li> 
-                    <a href="">
-                        <img src="img/floor7.jpg" alt="">
-                        <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
-                        <div class="price">￥68.5</div>
-                    </a>
-                </li>
-            </ul>
+                            <img src="img/floor7.jpg" alt="">
+                            <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
+                            <div class="price">￥68.5</div>
+                        </a>
+                    </li>
+                    <li class="col1-l-4 col1-s-4">
+                        <a href="">
+                            <img src="img/floor7.jpg" alt="">
+                            <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
+                            <div class="price">￥68.5</div>
+                        </a>
+                    </li>
+                    <li class="col1-l-4 col1-s-4">
+                            <a href="">
+                            <img src="img/floor7.jpg" alt="">
+                            <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
+                            <div class="price">￥68.5</div>
+                        </a>
+                    </li>
+                    <li class="col1-l-4 col1-s-4">
+                        <a href="">
+                            <img src="img/floor7.jpg" alt="">
+                            <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
+                            <div class="price">￥68.5</div>
+                        </a>
+                    </li>
+                    <li class="col1-l-4 col1-s-4">
+                        <a href="">
+                            <img src="img/floor7.jpg" alt="">
+                            <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
+                            <div class="price">￥68.5</div>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="wonder ">
+                    <li class="col1-l-4 col1-s-4">
+                        <a href="">
+                            <img src="img/floor7.jpg" alt="">
+                            <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
+                            <div class="price">￥68.5</div>
+                        </a>
+                    </li>
+                    <li class="col1-l-4 col1-s-4">
+                        <a href="">
+                            <img src="img/floor7.jpg" alt="">
+                            <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
+                            <div class="price">￥68.5</div>
+                        </a>
+                    </li>
+                    <li class="col1-l-4 col1-s-4">
+                            <a href="">
+                            <img src="img/floor7.jpg" alt="">
+                            <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
+                            <div class="price">￥68.5</div>
+                        </a>
+                    </li>
+                    <li class="col1-l-4 col1-s-4">
+                        <a href="">
+                            <img src="img/floor7.jpg" alt="">
+                            <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
+                            <div class="price">￥68.5</div>
+                        </a>
+                    </li>
+                    <li class="col1-l-4 col1-s-4">
+                        <a href="">
+                            <img src="img/floor7.jpg" alt="">
+                            <div class="tit">赛德斯机械键盘加鼠标耳机吃鸡三件套装游戏电脑键鼠网吧电竞外设</div>
+                            <div class="price">￥68.5</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
             <div class="end"></div>
         </div>
     </main>

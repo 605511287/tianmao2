@@ -1,0 +1,619 @@
+.contains {
+  width: 982px;
+  margin: 30px auto;
+}
+.contains > .row {
+  width: 100%;
+  height: 100%;
+}
+.contains > .row > * {
+  box-sizing: border-box;
+}
+.contains .col-s-hide {
+  display: none;
+}
+.contains .con .right {
+  width: 746px;
+}
+.contains .wonders {
+  height: 1300px;
+}
+.contains .wonders .wonder li {
+  width: 187px;
+  height: 300px;
+  margin-right: 9px;
+}
+.contains .wonders .wonder img {
+  margin: 20px 0 0 0;
+}
+.active {
+  width: 982px;
+}
+.active > .hide {
+  display: none;
+}
+.contains1 {
+  width: 982px;
+  overflow: hidden;
+}
+.contains1 ul {
+  width: 984px;
+}
+main .bigbanner .contains2 {
+  width: 982px;
+}
+.mainnav .innercon0 {
+  width: 982px;
+}
+.mainnav .innercon0 .hide {
+  display: none;
+}
+.col-s-1 {
+  width: 5%;
+  float: left;
+  height: 100%;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.col1-s-1 {
+  width: 5%;
+}
+.col-s-1:hover img {
+  opacity: 0.8;
+}
+.col-s-2 {
+  width: 10%;
+  float: left;
+  height: 100%;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.col1-s-2 {
+  width: 10%;
+}
+.col-s-2:hover img {
+  opacity: 0.8;
+}
+.col-s-3 {
+  width: 15%;
+  float: left;
+  height: 100%;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.col1-s-3 {
+  width: 15%;
+}
+.col-s-3:hover img {
+  opacity: 0.8;
+}
+.col-s-4 {
+  width: 20%;
+  float: left;
+  height: 100%;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.col1-s-4 {
+  width: 20%;
+}
+.col-s-4:hover img {
+  opacity: 0.8;
+}
+.col-s-5 {
+  width: 25%;
+  float: left;
+  height: 100%;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.col1-s-5 {
+  width: 25%;
+}
+.col-s-5:hover img {
+  opacity: 0.8;
+}
+.col-s-6 {
+  width: 30%;
+  float: left;
+  height: 100%;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.col1-s-6 {
+  width: 30%;
+}
+.col-s-6:hover img {
+  opacity: 0.8;
+}
+.col-s-7 {
+  width: 35%;
+  float: left;
+  height: 100%;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.col1-s-7 {
+  width: 35%;
+}
+.col-s-7:hover img {
+  opacity: 0.8;
+}
+.col-s-8 {
+  width: 40%;
+  float: left;
+  height: 100%;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.col1-s-8 {
+  width: 40%;
+}
+.col-s-8:hover img {
+  opacity: 0.8;
+}
+.col-s-9 {
+  width: 45%;
+  float: left;
+  height: 100%;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.col1-s-9 {
+  width: 45%;
+}
+.col-s-9:hover img {
+  opacity: 0.8;
+}
+.col-s-10 {
+  width: 50%;
+  float: left;
+  height: 100%;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.col1-s-10 {
+  width: 50%;
+}
+.col-s-10:hover img {
+  opacity: 0.8;
+}
+.col-s-11 {
+  width: 55%;
+  float: left;
+  height: 100%;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.col1-s-11 {
+  width: 55%;
+}
+.col-s-11:hover img {
+  opacity: 0.8;
+}
+.col-s-12 {
+  width: 60%;
+  float: left;
+  height: 100%;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.col1-s-12 {
+  width: 60%;
+}
+.col-s-12:hover img {
+  opacity: 0.8;
+}
+.col-s-13 {
+  width: 65%;
+  float: left;
+  height: 100%;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.col1-s-13 {
+  width: 65%;
+}
+.col-s-13:hover img {
+  opacity: 0.8;
+}
+.col-s-14 {
+  width: 70%;
+  float: left;
+  height: 100%;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.col1-s-14 {
+  width: 70%;
+}
+.col-s-14:hover img {
+  opacity: 0.8;
+}
+.col-s-15 {
+  width: 75%;
+  float: left;
+  height: 100%;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.col1-s-15 {
+  width: 75%;
+}
+.col-s-15:hover img {
+  opacity: 0.8;
+}
+.col-s-16 {
+  width: 80%;
+  float: left;
+  height: 100%;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.col1-s-16 {
+  width: 80%;
+}
+.col-s-16:hover img {
+  opacity: 0.8;
+}
+.col-s-17 {
+  width: 85%;
+  float: left;
+  height: 100%;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.col1-s-17 {
+  width: 85%;
+}
+.col-s-17:hover img {
+  opacity: 0.8;
+}
+.col-s-18 {
+  width: 90%;
+  float: left;
+  height: 100%;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.col1-s-18 {
+  width: 90%;
+}
+.col-s-18:hover img {
+  opacity: 0.8;
+}
+.col-s-19 {
+  width: 95%;
+  float: left;
+  height: 100%;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.col1-s-19 {
+  width: 95%;
+}
+.col-s-19:hover img {
+  opacity: 0.8;
+}
+.col-s-20 {
+  width: 100%;
+  float: left;
+  height: 100%;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.col1-s-20 {
+  width: 100%;
+}
+.col-s-20:hover img {
+  opacity: 0.8;
+}
+@media screen and (min-width: 1230px) {
+  .contains {
+    width: 1230px;
+  }
+  .contains .col-l-hide {
+    display: none;
+  }
+  .contains .col-s-hide {
+    display: block;
+  }
+  .contains col-m-hide {
+    display: block;
+  }
+  .contains .con .right {
+    width: 995px;
+  }
+  .contains .wonders {
+    height: 1450px;
+  }
+  .contains .wonders .wonder img {
+    margin: 20px auto 0;
+  }
+  .contains .wonders .wonder li {
+    width: 235px;
+    height: 326px;
+    margin-right: 11px;
+  }
+  .col-l-1 {
+    width: 5%;
+    float: left;
+    height: 100%;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .col1-l-1 {
+    width: 5%;
+  }
+  .col-l-1:hover img {
+    opacity: 0.8;
+  }
+  .col-l-2 {
+    width: 10%;
+    float: left;
+    height: 100%;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .col1-l-2 {
+    width: 10%;
+  }
+  .col-l-2:hover img {
+    opacity: 0.8;
+  }
+  .col-l-3 {
+    width: 15%;
+    float: left;
+    height: 100%;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .col1-l-3 {
+    width: 15%;
+  }
+  .col-l-3:hover img {
+    opacity: 0.8;
+  }
+  .col-l-4 {
+    width: 20%;
+    float: left;
+    height: 100%;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .col1-l-4 {
+    width: 20%;
+  }
+  .col-l-4:hover img {
+    opacity: 0.8;
+  }
+  .col-l-5 {
+    width: 25%;
+    float: left;
+    height: 100%;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .col1-l-5 {
+    width: 25%;
+  }
+  .col-l-5:hover img {
+    opacity: 0.8;
+  }
+  .col-l-6 {
+    width: 30%;
+    float: left;
+    height: 100%;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .col1-l-6 {
+    width: 30%;
+  }
+  .col-l-6:hover img {
+    opacity: 0.8;
+  }
+  .col-l-7 {
+    width: 35%;
+    float: left;
+    height: 100%;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .col1-l-7 {
+    width: 35%;
+  }
+  .col-l-7:hover img {
+    opacity: 0.8;
+  }
+  .col-l-8 {
+    width: 40%;
+    float: left;
+    height: 100%;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .col1-l-8 {
+    width: 40%;
+  }
+  .col-l-8:hover img {
+    opacity: 0.8;
+  }
+  .col-l-9 {
+    width: 45%;
+    float: left;
+    height: 100%;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .col1-l-9 {
+    width: 45%;
+  }
+  .col-l-9:hover img {
+    opacity: 0.8;
+  }
+  .col-l-10 {
+    width: 50%;
+    float: left;
+    height: 100%;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .col1-l-10 {
+    width: 50%;
+  }
+  .col-l-10:hover img {
+    opacity: 0.8;
+  }
+  .col-l-11 {
+    width: 55%;
+    float: left;
+    height: 100%;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .col1-l-11 {
+    width: 55%;
+  }
+  .col-l-11:hover img {
+    opacity: 0.8;
+  }
+  .col-l-12 {
+    width: 60%;
+    float: left;
+    height: 100%;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .col1-l-12 {
+    width: 60%;
+  }
+  .col-l-12:hover img {
+    opacity: 0.8;
+  }
+  .col-l-13 {
+    width: 65%;
+    float: left;
+    height: 100%;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .col1-l-13 {
+    width: 65%;
+  }
+  .col-l-13:hover img {
+    opacity: 0.8;
+  }
+  .col-l-14 {
+    width: 70%;
+    float: left;
+    height: 100%;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .col1-l-14 {
+    width: 70%;
+  }
+  .col-l-14:hover img {
+    opacity: 0.8;
+  }
+  .col-l-15 {
+    width: 75%;
+    float: left;
+    height: 100%;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .col1-l-15 {
+    width: 75%;
+  }
+  .col-l-15:hover img {
+    opacity: 0.8;
+  }
+  .col-l-16 {
+    width: 80%;
+    float: left;
+    height: 100%;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .col1-l-16 {
+    width: 80%;
+  }
+  .col-l-16:hover img {
+    opacity: 0.8;
+  }
+  .col-l-17 {
+    width: 85%;
+    float: left;
+    height: 100%;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .col1-l-17 {
+    width: 85%;
+  }
+  .col-l-17:hover img {
+    opacity: 0.8;
+  }
+  .col-l-18 {
+    width: 90%;
+    float: left;
+    height: 100%;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .col1-l-18 {
+    width: 90%;
+  }
+  .col-l-18:hover img {
+    opacity: 0.8;
+  }
+  .col-l-19 {
+    width: 95%;
+    float: left;
+    height: 100%;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .col1-l-19 {
+    width: 95%;
+  }
+  .col-l-19:hover img {
+    opacity: 0.8;
+  }
+  .col-l-20 {
+    width: 100%;
+    float: left;
+    height: 100%;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+  .col1-l-20 {
+    width: 100%;
+  }
+  .col-l-20:hover img {
+    opacity: 0.8;
+  }
+  .active {
+    width: 1230px;
+  }
+  .active > .hide {
+    display: block;
+  }
+  .contains1 {
+    width: 1230px;
+  }
+  .contains1 ul {
+    width: 100%;
+  }
+  main .bigbanner .contains2 {
+    width: 1230px;
+  }
+  .mainnav .innercon0 {
+    width: 1230px;
+  }
+  .mainnav .innercon0 .hide {
+    display: block;
+  }
+}

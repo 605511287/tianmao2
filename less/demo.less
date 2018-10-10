@@ -1,0 +1,136 @@
+@import "value.less";
+
+
+.contains{
+  width: @width3;
+  margin:30px auto;
+  &>.row{
+    width:100%;
+    height:100%;
+  }
+  &>.row>*{
+    box-sizing: border-box;
+  }
+  & .col-s-hide{
+    display: none;
+  }
+  & .con .right{
+    width:746px;
+  }
+
+   & .wonders{
+    height: 1300px;
+  }
+  & .wonders .wonder li{
+    width:187px;
+    height:300px;
+
+    margin-right:9px;
+  }
+    & .wonders .wonder img{
+    margin:20px 0 0 0;
+  }
+}
+.active{
+  width:@width3;
+  &>.hide{
+    display: none;
+  }
+}
+.contains1{
+  width:@width3;
+  overflow: hidden;
+  & ul{
+   width: 984px;
+  }
+}
+main .bigbanner .contains2{
+  width:@width3;
+}
+.mainnav .innercon0{
+  width:@width3;
+    & .hide{
+    display: none;
+  }
+}
+.col(@type,@i:1) when (@i<=@num){
+  .col-@{type}-@{i}{
+    width:@i/@num*100%;
+    float:left;
+    height:100%;
+    padding-right: 10px;
+    cursor: pointer;
+  }
+    .col1-@{type}-@{i}{
+    width:@i/@num*100%;
+  }
+  .col-@{type}-@{i}:hover img{
+    opacity: 0.8;
+  }
+  .col(@type,@i:@i+1);
+}
+.col(@type:s);
+
+//@media screen  and (min-width:@width2){
+//  .contains{
+//    width:@width2;
+//    &>.row>.col-s-hide{
+//      display: block;
+//    }
+//    &>.row>.col-m-hide{
+//      display: none;
+//    }
+//  }
+//  .col(@type:m)
+//}
+@media screen and (min-width: @width1) {
+  .contains{
+    width:@width1;
+    & .col-l-hide{
+      display: none;
+    }
+        & .col-s-hide{
+      display: block;
+    }
+    & col-m-hide{
+      display: block;
+    }
+    & .con .right{
+      width:995px;
+    }
+  & .wonders{
+    height:1450px;
+  }
+  & .wonders .wonder img{
+    margin:20px auto 0;
+  }
+      & .wonders .wonder li{
+    width:235px;
+    height:326px;
+
+    margin-right:11px;
+  }
+  }
+  .col(@type:l);
+  .active{
+    width:@width1;
+    &>.hide{
+      display: block;
+    }
+  }
+  .contains1{
+    width:@width1;
+        & ul{
+      width:100%;
+    }
+  }
+main .bigbanner  .contains2{
+  width:@width1;
+}
+.mainnav .innercon0{
+  width:@width1;
+  & .hide{
+    display: block;
+  }
+}
+}
